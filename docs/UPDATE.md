@@ -1,6 +1,6 @@
 # Point release updates
 !!! notice
-    In general, updating MISP between point releases (for exampe 2.4.50 -> 2.4.53) happens with one of the following two options (both are to be executed as root).
+    In general, updating MISP between point releases (for exampe 2.4.50 -> 2.4.53) happens with one of the following two options (Depending on your setup, you can run these commands as root OR run them as "sudo -u www-data" if everything was installed under the apache user, permissions for webgui upgrade will break if everything is run as root).
 
 ## Option 1
 
